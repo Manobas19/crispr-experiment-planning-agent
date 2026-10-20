@@ -1,0 +1,4 @@
+name,purpose,comparison
+Target perturbation,Assess the proposed gene-related phenotype with independent perturbations.,Compare with matched non-targeting control.
+Non-targeting control,Estimate background from the delivery and assay context.,Same model-system and assay context as target group.
+Mock/untreated,Identify assay and delivery-related background where appropriate.,Interpret separately from the non-targeting control.

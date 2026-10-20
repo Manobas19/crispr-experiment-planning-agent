@@ -1,0 +1,11 @@
+{
+  "goal": "Plan an educational loss-of-function study asking whether disruption of an existing fluorescent reporter reduces its signal.",
+  "organism": "Homo sapiens",
+  "target_gene": "EGFP reporter transgene",
+  "model_system": "An established non-infectious cultured-cell reporter model; exact cell line and integration details not yet specified.",
+  "perturbation": "knockout",
+  "phenotype_readout": "Reporter fluorescence per viable cell compared with a matched non-targeting control.",
+  "reference_build": "unspecified",
+  "available_assays": ["fluorescence measurement", "amplicon sequencing"],
+  "constraints": ["Educational planning example only", "Reporter construct sequence and integration status must be obtained before guide design", "Budget and number of biological replicates are not yet specified"]
+}

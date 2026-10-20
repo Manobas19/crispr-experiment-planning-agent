@@ -1,0 +1,4 @@
+stage,action,deliverable,completion_check
+Define,"Resolve target identity, model system and hypothesis.",Reviewed study brief,Missing context resolved
+Design,"Prepare control groups, guide-design requirements and assay plan.",Reviewed design matrix,Controls address the main confounders
+Evaluate,Analyze molecular validation and prespecified phenotype separately.,"Effect estimates, uncertainty and interpretation",Biological units and batch effects handled correctly

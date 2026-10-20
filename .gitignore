@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+my_brief.json
+live_plan*/
+crispr_agent_work/

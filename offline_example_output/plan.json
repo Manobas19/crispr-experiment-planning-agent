@@ -1,0 +1,70 @@
+{
+  "title": "OFFLINE TEMPLATE — EGFP reporter transgene CRISPR study",
+  "hypothesis": "Test the supplied goal: Plan an educational loss-of-function study asking whether disruption of an existing fluorescent reporter reduces its signal.",
+  "design_rationale": "Template preview only. Perturbation modality and target suitability need review for An established non-infectious cultured-cell reporter model; exact cell line and integration details not yet specified..",
+  "groups": [
+    {
+      "name": "Target perturbation",
+      "purpose": "Assess the proposed gene-related phenotype with independent perturbations.",
+      "comparison": "Compare with matched non-targeting control."
+    },
+    {
+      "name": "Non-targeting control",
+      "purpose": "Estimate background from the delivery and assay context.",
+      "comparison": "Same model-system and assay context as target group."
+    },
+    {
+      "name": "Mock/untreated",
+      "purpose": "Identify assay and delivery-related background where appropriate.",
+      "comparison": "Interpret separately from the non-targeting control."
+    }
+  ],
+  "primary_endpoint": "Reporter fluorescence per viable cell compared with a matched non-targeting control.",
+  "replication_and_power": "Use independent biological units; estimate required replication from pilot variance, expected effect and planned analysis. Technical repeats are not independent samples.",
+  "randomization_and_blinding": "Randomize sample allocation where feasible, balance batches and mask phenotype analysis to group identity.",
+  "guide_design_requirements": [
+    "Verify reference assembly, transcript, perturbation modality and PAM compatibility.",
+    "Use an external guide-design tool; inspect off-target predictions, variants and independent guide agreement. No guides are generated here."
+  ],
+  "validation_strategy": [
+    "Confirm the intended molecular perturbation separately from the phenotype.",
+    "Assess agreement among independent guides; consider an orthogonal or rescue experiment if appropriate."
+  ],
+  "workflow": [
+    {
+      "stage": "Define",
+      "action": "Resolve target identity, model system and hypothesis.",
+      "deliverable": "Reviewed study brief",
+      "completion_check": "Missing context resolved"
+    },
+    {
+      "stage": "Design",
+      "action": "Prepare control groups, guide-design requirements and assay plan.",
+      "deliverable": "Reviewed design matrix",
+      "completion_check": "Controls address the main confounders"
+    },
+    {
+      "stage": "Evaluate",
+      "action": "Analyze molecular validation and prespecified phenotype separately.",
+      "deliverable": "Effect estimates, uncertainty and interpretation",
+      "completion_check": "Biological units and batch effects handled correctly"
+    }
+  ],
+  "analysis_plan": [
+    "Prespecify the primary contrast and endpoint.",
+    "Use sample-level biological replication, suitable effect estimates and uncertainty.",
+    "Choose methods appropriate to the actual data type; MAGeCK only applies to pooled guide-count screens."
+  ],
+  "limitations": [
+    "This fixed preview is not AI-generated or target-specific biological advice.",
+    "No sequence design, laboratory protocol execution or live evidence retrieval was performed."
+  ],
+  "missing_information": [
+    "Confirm genome assembly, target transcript/isoform and exact model-system genotype before guide design.",
+    "Define independent biological replication and estimate sample size from pilot variance and a meaningful effect size.",
+    "Specify whether the experiment is arrayed or pooled and whether batch effects or matched samples are expected."
+  ],
+  "source_ids": [
+    "LC_AGENTS"
+  ]
+}

@@ -1,0 +1,1 @@
+Offline preview ran successfully. Checked plan schema, required groups, missing-information checks, empty offline tool-call audit, key-free export field structure, Python notebook-cell syntax and Ubuntu shell syntax. Live model/tool loop and optional NCBI network lookup have not been executed here. No experimental validation.

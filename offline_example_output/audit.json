@@ -1,0 +1,11 @@
+{
+  "mode": "OFFLINE_TEMPLATE_NOT_AI",
+  "model": null,
+  "time_utc": "2026-10-20T07:04:37.907071+00:00",
+  "python": "3.12.14",
+  "brief_sha256": "d1eaef4c4d116853abbde17b2cca46c6f075391712f32f61281ce50d3f6522bc",
+  "tool_calls": [],
+  "retrieved_metadata": {},
+  "token_usage": [],
+  "scope": "Study planning only; no guide design or laboratory execution"
+}
